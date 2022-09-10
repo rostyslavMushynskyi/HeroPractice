@@ -130,8 +130,8 @@ class Spell extends DamageDealer {
   }
 }
 
-const katana = new Weapon("Katana", 12, "sword");
-const fireball = new Spell("Fireball", 16, "fire");
+const excalibur = new Weapon("Excalibur", 12, "sword");
+const wave = new Spell("Wave", 16, "water");
 
 const vsevolod = new Warrior("Vsevolod", 500, 20, 0, katana);
 vsevolod.gainXP(500);
